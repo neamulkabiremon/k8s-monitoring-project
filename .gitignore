@@ -1,0 +1,23 @@
+# === Terraform state & cache ===
+terraform/**/*.tfstate
+terraform/**/*.tfstate.backup
+terraform/**/.terraform/
+
+# === Sensitive input variables ===
+terraform/**/*.tfvars
+terraform/**/*.tfvars.json
+
+# === Terraform plan & crash files ===
+terraform/**/*.tfplan
+terraform/**/crash.log
+
+# === Ignore editor/IDE settings ===
+.vscode/
+.idea/
+*.swp
+*.bak
+*.tmp
+
+# === macOS/Linux OS files ===
+.DS_Store
+Thumbs.db
